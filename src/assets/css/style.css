@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+li {
+    color: rgba(217,217,217,1.00);
+}
+
+.tfy, .wtf {
+    padding: 0 15px;
+    padding: 10px 15px;
+}
+
+.category_1 {
+    padding: 0 15px;
+}
+
+.tt {
+    padding: 8px;
+    font-size: 17.5px;
+    border-radius: 9999px;
+}
+
+.topic {
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.TopicCount {
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.whath {
+    flex: 0.9 1;
+}
+
+.tweetbox-input {
+    font-size: 19px;
+    line-height: 24.9375px;
+    background-color: #000000;
+}
+
+.clen {
+    flex: 0.1 1 0%;
+}
+
+.file {
+    display: none;
+}
+
+.button-tweet:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
