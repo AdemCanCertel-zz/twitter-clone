@@ -6,6 +6,25 @@ li {
     color: rgba(217,217,217,1.00);
 }
 
+.sidebar-text-bold {
+    font-size: 21px
+}
+
+.sidebar-text {
+    font-size: 21px
+}
+
+.display-noblock {
+    display: inline-block
+}
+
+.sticky-top{
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index:1020
+}
+
 .tfy, .wtf {
     padding: 0 15px;
     padding: 10px 15px;
