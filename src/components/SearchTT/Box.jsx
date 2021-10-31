@@ -1,4 +1,4 @@
-import { Search, SettingsIcon, Circle } from '../Sidebar/İcons';
+import { Search, SettingsIcon, Circle, VerifiedBadge } from '../Sidebar/İcons';
 export default function AllBox() {
     return(
         <>
@@ -16,7 +16,7 @@ export default function AllBox() {
                     <SettingsIcon/>
                     </div>
                 </div>
-                <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer">
+                <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer mb-3">
                 <div className="">
                     <div className="flex flex-row items-center category_1">
                         <span className="text-sm text-primary-trends_d_color">Science . Trending</span>
@@ -33,11 +33,11 @@ export default function AllBox() {
                     </div>
                 </div>
                 <div className="TopicCount">
-                    <span className="text-white">10.4K Tweets</span>
+                    <span className="text-primary-trends_d_color">10.4K Tweets</span>
                 </div>
             </div>
             
-            <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer">
+            <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer mb-3">
                 <div className="">
                     <div className="flex flex-row items-center category_1">
                         <span className="text-sm text-primary-trends_d_color">Football . Trending</span>
@@ -54,11 +54,11 @@ export default function AllBox() {
                     </div>
                 </div>
                 <div className="TopicCount">
-                    <span className="text-white">3.320K Tweets</span>
+                    <span className="text-primary-trends_d_color">3.320K Tweets</span>
                 </div>
             </div>
 
-            <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer">
+            <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer mb-3">
                 <div className="">
                     <div className="flex flex-row items-center category_1">
                         <span className="text-sm text-primary-trends_d_color">Movies & TV . Trending</span>
@@ -75,7 +75,7 @@ export default function AllBox() {
                     </div>
                 </div>
                 <div className="TopicCount">
-                    <span className="text-white">1.485 Tweets</span>
+                    <span className="text-primary-trends_d_color">1.485 Tweets</span>
                 </div>
             </div>
 
@@ -96,26 +96,29 @@ export default function AllBox() {
                     </div>
                 </div>
                 <div className="TopicCount">
-                    <span className="text-white">30K Tweets</span>
+                    <span className="text-primary-trends_d_color">30K Tweets</span>
                 </div>
             </div>
+            <div className="p-4 transform transition-colors duration-2 bg-primary-wigdets_background_color">
+            <span className=" text-primary-button">Show more</span>
+        </div>
             </div>
         </div>
         <div className="wtf p-3 m-3 flex flex-col rounded-xl mt-4 transform transition-colors duration-2 bg-primary-wigdets_background_color">
-            <div className="text-white font-bold inline">
-                <span className="wtf">Who to follow</span>
-            </div>
+        <div className="tfy flex items-center justify-between text-white">
+                    <span className="text-xl font-bold">Who to Follow</span>
+                </div>
         <div className="hover:bg-primary-trends_hover">
             <div className="flex flex-row items-center ">
                 <div className="px-4 py-3">
-                    <img className="rounded-full h-11 w-11" src="https://avatars.githubusercontent.com/u/69676558?s=400&u=b9745d0343d336eebd909869ed57db8136991b8d&v=4" />
+                    <img className="rounded-full h-11 w-11" src="https://avatars.githubusercontent.com/u/50018633?v=4" />
                 </div>
                 <div className="flex flex-col">
                     <div className="font-bold text-white">
-                        <span>Tom and Jerry</span>
+                        <span>Eleven <VerifiedBadge/></span>
                     </div>
                     <div className="text-primary-gray_colors">
-                        @tomandjarry
+                        @eleven
                     </div>
                 </div>
                 <div className="flex flex-row ml-auto items-center justify-between rounded-full bg-white px-4 py-1">

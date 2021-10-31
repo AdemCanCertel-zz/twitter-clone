@@ -54,8 +54,8 @@ export default function TweetBox() {
                            </a>
                        </div>
                    </div>
-                   <div className="bg-primary-button text-white rounded-full shadow-lg justify-center py-3 px-4 transform transition-colors duration-500 hover:bg-primary-button_hover">
-                   <button className="button-tweet" onClick={sendTweet}>Tweet</button>
+                   <div className="bg-primary-button text-white rounded-full shadow-lg justify-center py-2 px-4 transform transition-colors duration-500 hover:bg-primary-button_hover">
+                   <button className="button-tweet font-bold" onClick={sendTweet}>Tweet</button>
                    </div>
                </div>
         </div>
