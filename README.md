@@ -1,5 +1,5 @@
 ## Twitter Clone ✨
-<img src="https://i.imgur.com/lAyxgsX.png"/>
+<img src="https://i.imgur.com/edcYstG.png"/>
 
 ## Getting Started
   To add the project to your device.
@@ -12,7 +12,7 @@
   - `npm run dev` & `yarn dev`
 
 ## Todo List 📊
-  - [ ] Message Box 
+  - [ ] Message Box
   - [ ] Completing the pages 👌
   - [ ] Solving a Firebase mail error.
 

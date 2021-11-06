@@ -61,7 +61,7 @@ export default function AllBox() {
             <div className="hover:bg-primary-trends_hover transform transition-colors duration-2 cursor-pointer mb-3">
                 <div className="">
                     <div className="flex flex-row items-center category_1">
-                        <span className="text-sm text-primary-trends_d_color">Movies & TV . Trending</span>
+                        <span className="text-sm text-primary-trends_d_color">Technology . Trending</span>
                         <div className="flex space-x-1 ml-auto tt items-center justify-center w-8 h-8 rounded-full transform transition-colors duration-2 hover:bg-primary-trends_circle_hover hover:bg-opacity-25 cursor-pointer">
                             <Circle/>
                         </div>
@@ -70,7 +70,7 @@ export default function AllBox() {
                 <div className="topic">
                     <div className="text-white font-bold">
                         <span>
-                            #LeylaileMecnun
+                            #Apple
                         </span>
                     </div>
                 </div>
