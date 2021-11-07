@@ -1,7 +1,9 @@
-## Twitter Clone ✨
+## ✨ Twitter Clone
+
+### Screenshot
 <img src="https://i.imgur.com/edcYstG.png"/>
 
-## Getting Started
+## 🔧 Getting Started
   To add the project to your device.
   - `git clone git@github.com:AdemCanCertel/twitter-clone.git`
 
@@ -11,11 +13,12 @@
   after installing the project, you can start it in developer mode.
   - `npm run dev` & `yarn dev`
 
-## Todo List 📊
-  - [ ] Message Box
+### 📊 Todo List 
+  - [ ] Message Box 
   - [ ] Completing the pages 👌
   - [ ] Solving a Firebase mail error.
+  - [ ] OnClick menu structures
 
-## Thanks 
+## ❤️ Thanks 
 [Tailwind CSS](https://tailwindcss.com/)
 [Next.js](https://nextjs.org/)
